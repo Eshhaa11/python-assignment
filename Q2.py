@@ -1,6 +1,6 @@
 def count_down(x):
     while x >= 0:
-        print(x, end=' ')
+        print(x)
         x = x - 1
     print()
 

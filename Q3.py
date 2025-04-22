@@ -4,12 +4,12 @@ def from_n_to_zero(n):
     elif n > 0:
         n = n - 1
         while n >= 0:
-            print(n, end=' ')
+            print(n)
             n = n - 1
         print()
     else:
         while n <= 0:
-            print(n, end=' ')
+            print(n)
             n = n + 1
         print()
 
