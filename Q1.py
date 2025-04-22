@@ -1,8 +1,9 @@
-def even_index_chars(word):
+def even_index(word):
     i = 0
     while i < len(word):
         print(word[i], end='')
         i = i + 2 
     print()  
-even_index_chars("DoctorPhenomenal") 
-even_index_chars("Geeks")
+    
+even_index("DoctorPhenomenal") 
+even_index("Geeks")
